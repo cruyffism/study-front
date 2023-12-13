@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>입력 양식</title>
+</head>
+<!-- 주의점 -->
+<!-- class: class 뒤에 쓴 단어에 여러가지 css가 들어간 것임(지정된 스타일 가져다가 쓰는거)  -->
+<!-- id: label의 for가 input의 id값을 찾으므로 이 때 쓴다 // (자슽 또는 CSS)에서 id 값으로 뭔가를 실행할 때 id 값이 일치하는 것을 연결 // id는 #으로 연결  -->
+<!-- name: 백엔드로 넘겨주거나 백엔드에서 넘겨줄 때 사용 // (자슽 또는 CSS)에서 id 값으로 뭔가를 실행할 때 id 값이 일치하는 것을 연결 // name은 .으로 연결//백엔드 dto의 이름과 일치해야함  -->
+<!-- 보통 name과 id를 같은 이름으로 씀 -->
+
+<body>
+    <form>
+        <fieldset>
+            <legend>로그인 :</legend>
+            <label for="id">아이디 :</label>
+            <input id="id" type="text">
+            <br>
+            <label for="pw">비밀번호 :</label>
+            <input id="pw" type="password" placeholder="비밀번호를 입력하세요">
+        </fieldset>
+        <fieldset>
+            <legend>선택 요소</legend>
+            성별 :
+            <label for="man">남
+                <input id="man" name="gender" type="radio">
+            </label>
+            <label for="woman">여
+                <input id="woman" name="gender" type="radio" checked>
+            </label>
+            <br>
+            알레르기 :
+            <input type="checkbox"> 꽃가루알레르기
+            <input type="checkbox" checked> 복숭아 알레르기
+            <input type="checkbox"> 오이 알레르기
+            <input type="checkbox" checked> 파인애플 알레르기
+        </fieldset>
+        <fieldset>
+            <legend>input이 아닌 태그</legend>
+            하고 싶은 말
+           <label><textarea cols="30" rows="10">반갑습니다.</textarea></label>
+           <br>
+           <br>
+           <br>
+           좋아하는 게임 1개만
+           <select multiple size="3">
+            <option>롤</option>
+            <option>오버워치</option>
+            <option selected>배틀그라운드</option>
+           </select>
+           <br>
+           <input type="file">
+        </fieldset>
+        <fieldset>
+            <legend>기타 입력 요소</legend>
+            <label>신발사이즈</label>
+            <input type="number" style="width: 50px;">
+            <label>키</label>
+            <input type="number" style="width: 70px;">
+            <label>별점</label>
+            <input type="range" style="width: 100px;">
+            <label>색상</label>
+            <input type="color" style="width: 50px;" >
+            <br>
+            <label>날짜</label>
+            <input type="date">
+            <label>시간</label>
+            <input type="time">
+        </fieldset>
+   <input type="submit" value="로그인(input)">
+   <input type="submit"value="다시 작성(input)">
+   <input type="submit"value="누르지 마세요.(input)">
+    <button>로그인2(button)</button>
+    <button>다시 작성2(button)</button>
+    <button>누르지 마세요.(button)</button>
+    </form>
+
+</body>
+
+</html>
