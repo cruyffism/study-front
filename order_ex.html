@@ -66,6 +66,11 @@
             <label for="d-day">배송 지정 (주문일로부터 최소 3일 이후)</label>
             <input type="date" id="d-day">
           </li>
+          <!-- 텍스트 여러 줄 입력 -->
+          <li>
+            <label for="memo">메모</label>
+            <textarea id="memo" cols="40" rows="4"></textarea>
+          </li>
           <!-- <li>
             <input type="search" id="search">
           </li>
@@ -76,6 +81,10 @@
       </fieldset>
       <input type="submit" value="주문하기">
       <input type="reset" value="취소하기">
+      <div>
+        <button type="submit">주문하기</button>
+        <button type="reset">취소하기</button>
+      </div>
     </form>
   </div>
 </body>
