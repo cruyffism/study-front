@@ -22,13 +22,15 @@
 }
 
 .box {
+  margin: 20px auto;
   border: solid 1px #cccccc;
   /* 경계선 */
   background-color: #eeeeee;
   /* 배경 색상 */
-  padding: 20px 10px;
+  padding: 10px 10px;
   /* 패딩 */
-  border-radius: 10px;
+  border-radius: 5px;
+  width: 400px;
 }
 
 .register {
@@ -39,7 +41,7 @@
   background-color: green;
   padding: 20px 10px;
   border-radius: 0px;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 .blueText {
@@ -50,6 +52,6 @@
   color: white;
 }
 
-.login {
+a {
   color: green;
 }

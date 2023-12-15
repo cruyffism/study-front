@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Form Styling</title>
+  <style>
+    @import url('css/form_style.css');
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div class="form-wrap">
+      <!--내용을 싸고 있음-->
+      <h1>회원가입</h1>
+      <p>회원 정보를 입력하세요</p>
+      <form>
+        <label for="first-name">First Name</label><br>
+        <input type="text" name="firstName" id="first-name" />
+            
+        <label for="last-name">Last Name</label><br>
+        <input type="text" name="lastName" id="last-name" />
+            
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" />
+            
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password" />
+            
+        <label for="password2">Confirm Password</label><br>
+        <input type="password" name="pasword2" id="password2" />
+        
+        <button type="submit" class="btn">회원가입</button>
+     
+        <p class="bottom-text">
+          By clicking the Sign Up button, you agree to our
+          <a href="#">Terms & Conditions</a> and
+          <a href="#">Privacy Policy</a>
+        </p>
+      </form>
+    </div>
+    <footer>
+      <p>Already have an account? <a href="#">로그인하러가기</a></p>
+    </footer>
+  </div>
+</body>
+</html>

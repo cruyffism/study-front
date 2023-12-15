@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(17, 17, 99);
+  color: #000;
+  font-size: 10pt;
+  line-height: 2.0em;
+}
+#center{
+  border: none;
+  margin: 0 auto;
+  width: 300px;
+}
+#container{
+  text-align: center;
+  border: none;
+  width: 500px;
+  background-color: white;
+  margin: 10px auto;
+  padding: 10px;
+}
+#form form{
+  text-align: left;
+}
+#form {
+  border: none;
+  margin: 0 auto;
+}
+#join {
+  border: #000 2px solid;
+  background-color: rgb(40, 163, 137);
+  color: white;
+  width: 400px;
+  margin: 20px auto;
+  padding: 5px;
+}
+#form ul {
+  list-style-type: none;
+}
+#form input {
+  width: 400px;
+  height: 25px;
+  border: #ccc solid 1px;
+  border-radius: 3px;
+}
+.smallfont {
+  font-size: 0.8em;
+}
+.white {
+  color: white;
+}
+.blue {
+  color: blue;
+}
