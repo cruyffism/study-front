@@ -1,0 +1,41 @@
+    #container {
+      width: 600px;
+      margin:0 auto; /*화면 중앙에 배치*/
+    }
+    #box1 {
+      /* width: 600px; */
+      border: solid 1px #cccccc;
+      background-color: #eeeeee;
+      padding: 10px 30px;
+      border-radius: 20px 20px 0px 0px;
+      margin: 30px;
+    }
+
+    #box2 {
+      /* width: 600px; */
+      border: solid 1px #cccccc;
+      background-color: #eeeeee;
+      padding: 10px 30px;
+      border-radius: 0px;
+      margin: 30px;
+    }
+
+    #box3 {
+      /* width: 600px; */
+      border: solid 1px #cccccc;
+      background-color: #eeeeee;
+      padding: 10px 30px;
+      border-radius: 0px 0px 20px 20px;
+      margin: 30px;
+    }
+    table,
+    th,
+    td {
+      border: 1px solid #ccc;
+      border-collapse: collapse;
+    }
+    th,
+    td {
+      padding: 10px 20px;
+    }
+ 

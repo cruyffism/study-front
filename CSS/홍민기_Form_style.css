@@ -1,0 +1,55 @@
+#bg {
+  background-color: navy;
+}
+
+.text1 {
+  margin: 10px auto;
+  text-align: center;
+}
+
+#accountForm {
+  width: 430px;
+  height: 700px;
+  margin: 0 auto;
+  border: solid 1px #cccccc;
+  background-color: #eeeeee;
+  padding: 10px 30px;
+  border-radius: 0px;
+}
+
+#account {
+  line-height: 10px;
+}
+
+.box {
+  border: solid 1px #cccccc;
+  /* 경계선 */
+  background-color: #eeeeee;
+  /* 배경 색상 */
+  padding: 20px 10px;
+  /* 패딩 */
+  border-radius: 10px;
+}
+
+.register {
+  color: white;
+  width: 430px;
+  line-height: 5px;
+  border: solid 2px black;
+  background-color: green;
+  padding: 20px 10px;
+  border-radius: 0px;
+  margin: 30px auto;
+}
+
+.blueText {
+  color: blue;
+}
+
+.whiteText {
+  color: white;
+}
+
+.login {
+  color: green;
+}
