@@ -1,0 +1,46 @@
+#container {
+    width: 530px;
+    margin: auto;
+}
+
+div {
+    background-color: beige;
+    padding: 5px 30px;
+    margin-top: 40px;
+}
+
+.box1 {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.box2 {
+    border-radius: 0px;
+}
+
+.box3 {
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 10px;
+    margin: 10px 20px;
+}
+
+th {
+    font-weight: bold;
+}
+
+.line{
+    line-height: 2em;
+}
