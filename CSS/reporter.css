@@ -1,0 +1,43 @@
+body {
+    background-color:#02233b;
+  }
+  #container {
+    margin: 0 auto;
+    width: 600px;  /*가운데 정렬*/
+    height: 700px;
+    border: 1px dotted gray; /*박스 생성*/
+    padding: 20px; /*박스선과 글자의 내부 간격*/
+    background: url('../images/mic.png') no-repeat right bottom;
+    background-color: #fff;
+  }
+
+  ul {
+    margin: 0 30px;
+  }
+
+  h1 {
+    border: 1px solid teal;
+    color: white;
+    width: 600px;
+    height: 55px;
+    background-color: teal;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 20px;
+    line-height: 2em;
+  }
+
+  .brownText {
+    color: brown;
+  }

@@ -1,43 +1,42 @@
 
-div{
- width: 960px;
+/*여백 및 기본적인 폰트를 설정*/
+body{
+	margin:0;
+	padding:0;
+	font-family: Arial,"MS Trebuchet",sans-serif;
+}
+/* 페이지의 내용을 가운데 놓음*/
+#container{
+	width: 960px;
+	margin:0 auto;
 }
 
-header {
-  padding-left: 20px;
-  line-height: 2em;
-  border: 1px solid black;
+/* 점 제거 및 내비게이션을 가로 바 형태로 만듦 */
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0 20px 0 0;
+    display: inline-block;
 }
 
-article {
-  border: 1px solid black;
-  float:left;
-  height:200px;	
-  
-  padding:10px;	
-} 
-
-.left_section{
-  font-size: 12px;
-  line-height: 2em;
-  padding: 30px;
+.article1 {
+    width: 50%;
+    float: left;
 }
 
-.width1 {
-  width: 350px;
+.article2 {
+    width: 16%;
+    float: left;
+    margin-top: 90px;
 }
 
-.width2 {
-  /* width: 200px; */
+.article3 {
+    width: 20%;
+    float: left;
+    padding-left: 40px;
 }
 
-.right_section {
-  padding-left: 30px;
-}
-
-footer{
-  border: 1px solid black;
-  clear: left;
-  text-align: center;
-  padding: 10px;
+#foot {
+    clear: both;
+    text-align: center;
 }
