@@ -1,0 +1,43 @@
+
+div{
+ width: 960px;
+}
+
+header {
+  padding-left: 20px;
+  line-height: 2em;
+  border: 1px solid black;
+}
+
+article {
+  border: 1px solid black;
+  float:left;
+  height:200px;	
+  
+  padding:10px;	
+} 
+
+.left_section{
+  font-size: 12px;
+  line-height: 2em;
+  padding: 30px;
+}
+
+.width1 {
+  width: 350px;
+}
+
+.width2 {
+  /* width: 200px; */
+}
+
+.right_section {
+  padding-left: 30px;
+}
+
+footer{
+  border: 1px solid black;
+  clear: left;
+  text-align: center;
+  padding: 10px;
+}
