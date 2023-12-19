@@ -1,14 +1,15 @@
 body {
     background-color:#02233b;
+    margin: 0;
   }
   #container {
     margin: 0 auto;
     width: 600px;  /*가운데 정렬*/
-    height: 700px;
+    height: 800px; /*화이트 박스의 길이*/
     border: 1px dotted gray; /*박스 생성*/
-    padding: 20px; /*박스선과 글자의 내부 간격*/
+    padding: 25px; /*박스선과 글자의 내부 간격*/
     background: url('../images/mic.png') no-repeat right bottom;
-    background-color: #fff;
+    background-color: #fff; /*백그라운드를 먼저 쓰고 컬러 쓰기*/
   }
 
   ul {
