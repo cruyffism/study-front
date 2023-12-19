@@ -1,87 +1,100 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    /*여백 설정*/
+    body {
+      margin: 0;
+      padding: 50px;
+
+    }
+
+    /* 페이지의 내용을 가운데 놓음*/
     #container {
+      margin: 0 auto;
+      padding: 20px;
       width: 860px;
       height: 600px;
+      border: 1px solid gray;
+      background-color: gray;
     }
 
-    body {
-      background: #ccc;
-    }
-
-    ul {
-      width: 400px;
-      height: 300px;
+    /* 내비게이션의 리스트 점 제거 */
+    li {
       list-style: none;
-      padding: 0;
       margin: 0;
+      padding: 0;
+    }
+
+    /* 내비게이션을 가로 바 형태로 만듦 */
+    li {
+      padding: 0;
+      margin: 0 20px 0 0;
       display: inline-block;
     }
-
-    .box2 li {
-      width: 200px;
-      height: 400px;
-      padding: 0;
-      margin: 0;
-
-    }
-
 
     .box1 {
-      margin: 10px;
-      width: 400px;
-      height: 30%;
-      border: 1px solid black;
+      width: 350px;
+      height: 150px;
+      border: 1px solid navy;
       background-color: navy;
-      list-style: none;
-      display: inline-block;
+      text-align: center;
+      padding: 10px;
+    }
+    .box3 {
+      width: 350px;
+      height: 150px;
+      border: 1px solid skyblue;
+      background-color: skyblue;
+      text-align: center;
+      padding: 10px;
     }
   </style>
 </head>
 
 <body>
   <div id="container">
-
-    <section>
+    <header>
       <ul>
-        <li class="box1">영화그림_상단</li>
+        <li class="box1">영화</li>
         <li class="box1">영화설명_상단</li>
       </ul>
-    </section>
-
-    <section>
-      <ul class="box2">
-        <li>1. 영화 사진</li>
-        <li>1. 영화 설명</li>
-
-        <li>2. 영화 사진</li>
-        <li>2. 영화 설명</li>
-
-        <li>3. 영화 사진</li>
-        <li>3. 영화 설명</li>
-
-        <li>4. 영화 사진</li>
-        <li>4. 영화 설명</li>
-
-        <li>5. 영화 사진</li>
-        <li>5. 영화 설명</li>
-      </ul>
-    </section>
-
+    </header>
+    <hr>
     <section>
       <ul>
-        <li class="box1">영화그림_하단</li>
-        <li class="box1">영화설명_하단</li>
+        <li class="box1">1. 영화 사진</li>
+        <li class="box1">1. 영화 설명</li>
+      </ul>
+      <ul>
+        <li class="box1">2. 영화 사진</li>
+        <li class="box1">2. 영화 설명</li>
+      </ul>
+      <ul>
+        <li class="box1">3. 영화 사진</li>
+        <li class="box1">3. 영화 설명</li>
+      </ul>
+      <ul>
+        <li class="box1">4. 영화 사진</li>
+        <li class="box1">4. 영화 설명</li>
+      </ul>
+      <ul>
+        <li class="box1">5. 영화 사진</li>
+        <li class="box1">5. 영화 설명</li>
       </ul>
     </section>
-
-  </div id="container">
+    <hr>
+    <footer>
+      <ul>
+        <li class="box3">영화그림_하단</li>
+        <li class="box3">영화설명_하단</li>
+      </ul>
+    </footer>
+  </div>
 </body>
 
 </html>
