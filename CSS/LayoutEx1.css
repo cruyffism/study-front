@@ -1,0 +1,85 @@
+/*여백 설정*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 페이지 내용 가운데 설정 및 그레이 배경 화면 설정 */
+#container {
+  margin: 30px auto;
+  width: 860px;
+  height: 600px;
+  border: 1px solid gray;
+  background-color: gray;
+}
+
+header {
+  width: 860px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
+}
+
+.box1 {
+  width: 400px;
+  height: 80px;
+  margin: 10px auto;
+  padding: 5px;
+  text-align: center;
+  line-height: 5em;
+  display: inline-block;
+  border: 1px dotted black;
+  background-color: navy;
+}
+
+main {
+  width: 860px;
+  height: 300px;
+  margin: 0px 60px;
+  padding: 5px;
+}
+
+section {
+  border: 1px dotted black;
+  background-color: yellowgreen;
+  width: 120px;
+  height: 250px;
+  margin: 10px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.topBox {
+  width: 110px;
+  height: 180px;
+  margin: 3px auto;
+  background-color: blueviolet;
+}
+
+.bottomBox {
+  width: 110px;
+  height: 50px;
+  background-color: rgb(9, 32, 240);
+}
+
+footer {
+  width: 860px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  border-top: 1px dotted black;
+}
+
+.box3 {
+  width: 400px;
+  height: 80px;
+  margin: 10px auto;
+  padding: 5px;
+  text-align: center;
+  line-height: 5em;
+  display: inline-block;
+  border: 1px dotted black;
+  background-color: skyblue;
+}
