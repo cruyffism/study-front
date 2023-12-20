@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      float: left;
+    }
+    .box1 {
+      background-color: skyblue;
+      transition: ease 1s;
+    }
+    .box1:hover {
+      background-color: blue;
+    }
+
+    .box2 {
+      background-color: orange;
+      border: 3px solid #222;
+      transition: all linear 1.5s;
+    }
+    .box2:hover {
+      border: 3px solid red;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box1"></div>
+  <div class="box2"></div>
+</body>
+</html>
