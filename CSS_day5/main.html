@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    #container {
+      margin: auto;
+      width: 1000px;
+    }
+    .main {
+      text-align: center;
+    }
+    .login {
+      text-align: right;
+      margin: 20px 0px;
+    }
+    .login button {
+      border: 1px solid black;
+      width: 80px;
+      height: 30px;
+    }
+    article {
+      border: 1px solid black;
+      width: 250px;
+      height: 200px;
+      display: inline-block;
+      margin: 50px
+    }
+    [class*=list] {
+      border: 1px solid black;
+      float: left;
+      width: 220px;
+      height: 220px;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+
+    <div class="login">
+      <a href="#"><button class="btn1">로그인</button></a>
+      <a href="#"><button class="btn2">회원가입</button></a>
+      <hr>
+    </div>
+
+    <div class="main">
+      <h1>Main Page</h1>
+      <p>안녕하세요</p>
+      <p>강아지를 좋아하는 사람들을 위한 홈페이지 입니다.</p>
+      <article class="list">솜군1</article>
+      <img src="../images/cat1.jpg" alt="" width="140" height="140">
+      <article class="list">솜군2</article>
+      <img src="../images/cat1.jpg" alt="" width="140" height="140">
+      <article class="list">솜군3</article>
+      <img src="../images/cat1.jpg" alt="" width="140" height="140">
+      <article class="list">솜군4</article>
+      <img src="../images/cat1.jpg" alt="" width="140" height="140">
+    </div class="main">
+
+  </div>
+</body>
+
+</html>
