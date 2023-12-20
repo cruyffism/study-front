@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,33 +11,69 @@
       padding: 0px;
       box-sizing: border-box;
     }
-    body {
-      width:1000px;
+    #container {
+      width: 1000px;
     }
-    h1 {
+    #header {
+      margin: 30px 0px;
+      height: 100px;
       text-align: center;
     }
-    #main {
-      text-align: center;
+    .main {
+      float: left;
+      width: 300px;
+      line-height: 2em;
     }
-    
+    .title {
+      font-size: 25px;
+      font-weight: bold;
+    }
 
+    ul {
+      list-style: none;
+    }
+
+    [class*=prod] {
+      margin: 10px;
+    }
   </style>
 </head>
+
 <body>
-  <h1>신상품 목록</h1>
-  <div id="main">
-    <h2>상품 1</h2>
-    <p>상품 1 설명 텍스트</p>
-    <p>가격 : 12,345원</p>
+  <div id="container">
 
-    <h2>상품 2</h2>
-    <p>상품 2 설명 텍스트</p>
-    <p>가격 : 12,345원</p>
+    <div id="header">
+      <h1>신상품 목록</h1>
+    </div>
 
-    <h2>상품 3</h2>
-    <p>상품 3 설명 텍스트</p>
-    <p>가격 : 12,345원</p>
+    <div class="main">
+      <ul>
+        <li><img class="prod" src="../images/prod1.jpg" width="350" height="250"></li>
+        <li class="title">상품 1</li>
+        <li>상품 1 설명 텍스트</li>
+        <li>가격 : 12,345원</li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <ul>
+        <li><img class="prod" src="../images/prod2.jpg" width="350" height="250"></li>
+        <li class="title">상품 2</li>
+        <li>상품 2 설명 텍스트</li>
+        <li>가격 : 12,345원</li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <ul>
+        <li><img class="prod" src="../images/prod3.jpg" width="350" height="250"></li>
+        <li class="title">상품 3</li>
+        <li>상품 3 설명 텍스트</li>
+        <li>가격 : 12,345원</li>
+      </ul>
+    </div>
+    
   </div>
 </body>
+
 </html>
