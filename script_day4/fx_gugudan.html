@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>구구단 함수</title>
+</head>
+
+<body>
+  <script>
+    var num = prompt("구구단 몇 단을 원하세요", "");
+    gugudan(num);
+
+    function gugudan(n) { //n은 문자열 
+      var m = parseInt(n); // 문자열 n을 숫자로 바꿈
+
+      if(m < 1 || m > 9 || isNaN(m)) {
+        alert("잘못입력하셨습니다.");
+        return; // alert창 이후 function 처음으로 돌아감 >> 즉 아래 식을 실행 안하고 빈 페이지로 남음(함수종료)
+      }
+
+      document.write("<div>");
+      document.write("<h3>" + m + "단</h3>");
+      for (let i = 1; i <= 9; i++) {
+        document.write(m + " X " + i + " = " + m * i + "<br>");
+      }
+      document.write("</div>");
+    }
+  </script>
+
+</body>
+
+</html>

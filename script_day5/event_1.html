@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1 {
+      border: 19x solid black;
+      padding: 10px;
+      text-align: center;
+      background-color: #eee;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>당첨자 발표</h1>
+
+  <script>
+    var seed = prompt("전체 응모자 수 : ", "");
+    var winner = prompt("당첨자 수 : ", "1");
+
+    document.write("전체 응모자 수: " + seed + "명");
+    document.write("<br>");
+    document.write("당첨자 : ");
+
+    // for(let i = 1; i <= winner; i ++) {
+    //   var picked = Math.floor(Math.random() * seed + 1);
+    //   document.write(picked + "번, ");
+    // }
+
+    var randomIndexArray = [];
+    for (let i = 1; i <= winner; i++) {
+      var picked = Math.floor(Math.random() * seed + 1);
+      if (randomIndexArray.indexOf(picked) === -1) {// 기존 array에 picked 값이 중복이 되는지 체크하고 존재하지 않을경우 -1을 반환(-1이 반한된다면 중복이 없다는 소리) >> 따라서 조건에 -1이 나오는지 확인해야함
+        randomIndexArray.push(picked);
+        document.write(picked + "번, ");
+      } else { i-- } // 예를 들어 5번째 루프에서 -1이 반한된다면 (즉 중복되는 수가 있다면) -1을 해서 4번째 루프로 돌아가게 한다 그래서 다시 뽑게
+    }
+  </script>
+</body>
+
+</html>

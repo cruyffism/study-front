@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1 {
+      border: 19x solid black;
+      padding: 10px;
+      text-align: center;
+      background-color: #eee;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>당첨자 발표</h1>
+
+  <script>
+    var seed = prompt("전체 응모자 수 : ", "");
+    var picked = Math.floor(Math.random() * seed + 1); // + 1 을 하는 이유 :  random값의 범위가 0~1인데 0이 추출 될 가능성을 대비하여 +1을 해준다
+
+    document.write("전체 응모자 수: " + seed + "명");
+    document.write("<br>");
+    document.write("당첨자: " + picked + "번");
+  </script>
+</body>
+
+</html>
